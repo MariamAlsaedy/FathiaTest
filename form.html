@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+        <h1> Perpare Your Next Trip With Me !</h1>
+
+        <div class="column">
+            <div>
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="phone">Phone Number</label>
+                <input type="number" name="phone" id="phone" required>
+            </div>
+            <div>
+                <label>
+                    Gender
+                </label>
+                <div>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label class="inline-label" for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label class="inline-label" for="female">Female</label>
+                </div>
+            </div>
+            <div>
+                <label for="date">Arriving Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div>
+                <label for="date">Departure Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div>
+                <label for="Cities">Where would you like to Travel?</label>
+                <select name="Cities" id="Cities">
+                    <option value="">Choose one</option>
+                    <option value="Luxor">Luxor</option>
+                    <option value="Cairo">Cairo</option>
+                    <option value="Alexandria">Alexandria</option>
+                    <option value="Aswan">Aswan</option>
+                    <option value="Sohag">Sohag</option>
+                    <option value="Sharm El-Sheikah">Sharm El-Sheikah</option>
+                    <option value="Minya">Minya</option>
+                    <option value="Giza">Giza</option>
+                    <option value="Suez">Suez</option>
+                    <option value="Hurghada">Hurghada</option>
+                    <option value="Faiyum"> Faiyum</option>
+                    <option value="Minya">Minya</option>
+                </select>
+            </div>
+            <div>
+                <label>
+                    Please check the services that you need
+                </label>
+                <div>
+                    <input type="checkbox" name="Airline-Tickets" id="Airline-Tickets">
+                    <label class="inline-label" for="Airline-Tickets">Airline Tickets</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Rental-Car" id="Rental-Car">
+                    <label class="inline-label" for="Rental-Car">Rental Car</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Hotel-Accomadations" id="Hotel-Accomadations">
+                    <label class="inline-label" for="Hotel-Accomadations">Hotel Accomadations</label>
+                </div>
+            </div>
+            <input type="submit" value="Submit">
+
+            <input type="reset" value="Reset">
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </form>
+    
+</body>
+</html>

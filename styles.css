@@ -1,0 +1,14 @@
+html{
+    background-image: url('background.webp');
+    background-size: cover;
+}
+body {
+    background: rgba(255, 255, 255, 0.74);
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    font-family: 'raleway';
+    padding: 20px;
+    border-radius: 10px;
+
+}
